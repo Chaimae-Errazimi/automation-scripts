@@ -10,10 +10,9 @@ A high-availability router script built in Python.
 
 ## 🚀 How to use this code
 
-1. Install the requests dictionary:
-```bash
+1. Install the requests library:
 pip install requests
-Update the backup_webhook variable in the Python script to match your local n8n test webhook.
-Run the script in your Linux terminal:
-Bash
+
+1- Update the backup_webhook variable in the Python script to match your local n8n test webhook.
+2- Run the script in your Linux terminal:
 python3 fallback-router.py
